@@ -63,20 +63,6 @@ npx http-server .
 
 ---
 
-## Recruiter / Hiring Manager Notes
-
-This project demonstrates:
-
-- Strong frontend fundamentals.
-- Ability to build interactive UIs without frameworks.
-- Understanding of responsive design techniques.
-- Experience with JavaScript-based cart and sorting logic.
-- Clean file structure suitable for scaling into larger applications.
-
-Ideal for **Frontend Engineer**, **JavaScript Developer**, or **UI Engineer** roles.
-
----
-
 ## Potential Enhancements
 
 - Add a real backend API for book data.
