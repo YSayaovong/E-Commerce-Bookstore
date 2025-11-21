@@ -1,126 +1,91 @@
-# 📚 Case Study: Building a Modern E-Commerce Bookstore UI  
-### **React • Redux Toolkit • React Router • Apollo GraphQL • Custom CSS**
+# E-Commerce Bookstore
 
-## 🧩 Executive Summary
+This project is a responsive, interactive bookstore built entirely with HTML, CSS, and JavaScript. It focuses on frontend engineering skills through UI/UX design, cart logic, sorting features, and clean component structure.
 
-BookStack is a **fully-featured e-commerce bookstore UI** designed as a real-world Frontend Developer portfolio project.  
-The goal was to build a production-style React application that demonstrates the skills companies look for:
+---
 
-- React component architecture  
-- Global state management using Redux Toolkit  
-- Page routing and navigation  
-- UI/UX layout systems  
-- GraphQL-ready data layer  
-- Responsive, modular CSS  
+## Overview
 
-The project simulates a modern online bookstore where users can browse categories, view new arrivals, sort and filter products, and navigate pages smoothly.
+The application simulates a simple online bookstore where users can browse books, sort listings, and manage a shopping cart. All logic runs on the client side, showcasing strong command of JavaScript fundamentals and responsive interface design.
 
-## 🎯 Project Objectives
+The project aligns with expectations for **Frontend Developer** and **JavaScript Engineer** roles.
 
-1. **Rebuild an e-commerce UI from scratch using modern React patterns.**  
-2. **Integrate Redux Toolkit** to manage global UI state and scale cleanly.  
-3. **Add GraphQL capability** using Apollo Client to demonstrate API-ready architecture.  
-4. **Design reusable components** that can be extended for real business use.  
-5. **Apply professional UI styling** with a consistent design system and layout grid.  
-6. **Ship a clean, recruiter-ready project** showcasing Frontend Developer expertise.
+---
 
-## 🛠 Tech Stack & Tools
+## Tech Stack
 
-**Frontend Technologies**
-- React 18  
-- Redux Toolkit (Global State)  
-- React Router (Navigation)  
-- Apollo Client (GraphQL Integration)  
-- JSX Component Architecture  
-- Custom Responsive CSS  
+- HTML5
+- CSS3 (responsive layouts, grids, components)
+- JavaScript (ES6+)
+- Client-side rendering and state handling
 
-**Developer Tools**
-- VS Code  
-- Prettier  
-- Node & npm  
-- create-react-app base setup  
+---
 
-## 🏗 System Architecture
+## Features
+
+- Fully responsive interface for mobile, tablet, and desktop.
+- Product browsing with book images, tags, and pricing.
+- Sorting and filtering options for cleaner navigation.
+- Client-side shopping cart with quantity controls.
+- Smooth UI interactions written in pure JavaScript.
+- Modular code organization across JS files.
+
+---
+
+## Project Structure
 
 ```
-src/
-│
-├── app/               # Redux store & slices
-├── apollo/            # Apollo client setup
-├── components/        # Reusable UI components
-├── data/              # Static product data
-├── graphql/           # Query structures
-├── pages/             # Routed views (Home, Categories, New Arrivals, Contact)
-├── index.css          # Global styles & layout system
-├── App.js             # Navigation + layout container
-└── index.js           # Application entry point
+.
+├── assets/        # Images, covers, icons
+├── css/           # Stylesheets
+├── js/            # Cart logic, sorting, UI handlers
+├── index.html     # Main storefront page
+└── README.md
 ```
 
-## 💡 Key Features & Implementation
+---
 
-### 🧱 1. Component-Driven UI  
-All major UI elements are isolated as components:
-- Navbar  
-- Footer  
-- Hero Banner  
-- Product Cards  
-- Product Grid  
-- Category Filters  
+## Getting Started
 
-### 🔄 2. Global Application State with Redux Toolkit  
-Redux Toolkit was implemented to manage:
-- Category filters  
-- Sorting behavior  
-- Cart state (expandable feature)  
-
-### 🛰 3. Apollo Client (GraphQL Ready)  
-Even without a live API, the project includes:
-- Apollo Client setup  
-- Query structure  
-- Example GraphQL integration pattern  
-
-### 🧭 4. Multi-Page Navigation (SPA)  
-React Router handles all routes:
-- `/` → Home  
-- `/categories`  
-- `/new`  
-- `/contact`  
-
-### 🎨 5. Responsive Layout & Custom CSS  
-A full styling system was built manually:
-- Grid utilities  
-- Section containers  
-- Typography  
-- Button variants  
-- Color tokens  
-- Mobile-first breakpoints  
-
-## 📈 Outcomes
-
-The project demonstrates:
-- Component-based UI  
-- Hook-based React  
-- Production Redux patterns  
-- GraphQL client structure  
-- Routing & navigation  
-- Modern responsive design  
-
-## 🚀 Installation & Setup
-
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/USERNAME/bookstack-react.git
-cd bookstack-react
-npm install
-npm start
+git clone https://github.com/YSayaovong/E-Commerce-Bookstore.git
+cd E-Commerce-Bookstore
 ```
 
-## 📦 Future Improvements
-- Hook to real GraphQL API  
-- Firebase auth  
-- Stripe checkout simulation  
-- Dark mode  
-- Pagination  
-- Search  
+### 2. Run Locally
+Open `index.html` directly in your browser.
 
-## ⭐ Final Notes
-This project was built to resemble a real modern frontend application and is portfolio-ready.
+Or serve locally:
+```bash
+npx http-server .
+```
+
+---
+
+## Recruiter / Hiring Manager Notes
+
+This project demonstrates:
+
+- Strong frontend fundamentals.
+- Ability to build interactive UIs without frameworks.
+- Understanding of responsive design techniques.
+- Experience with JavaScript-based cart and sorting logic.
+- Clean file structure suitable for scaling into larger applications.
+
+Ideal for **Frontend Engineer**, **JavaScript Developer**, or **UI Engineer** roles.
+
+---
+
+## Potential Enhancements
+
+- Add a real backend API for book data.
+- Move to React or another framework for component-based architecture.
+- Include authentication, wishlist, or checkout simulation.
+- Add animations or advanced filtering options.
+
+---
+
+## License
+
+This project is open-source under the MIT License.
